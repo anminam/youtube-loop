@@ -1,0 +1,29 @@
+{
+  "name": "Youtube loop",
+  "version": "1.0",
+  "description": "loooooooop youtube",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions":["storage"],
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/replay-16.png",
+      "32": "images/replay-32.png",
+      "64": "images/replay-64.png",
+      "128": "images/replay-128.png"
+    }
+  },
+  "icons": {
+    "16": "images/replay-16.png",
+    "32": "images/replay-32.png",
+    "64": "images/replay-64.png",
+    "128": "images/replay-128.png"
+  },
+
+  "manifest_version": 2
+}
